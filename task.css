@@ -1,0 +1,254 @@
+body{
+        background-color: #ffffff;
+        font-family: sans-serif;
+        margin: 0;
+        display:flex;
+        flex-wrap: wrap;
+}   
+    
+
+.container{
+    width: 1360px;
+    margin: auto;
+    margin-top: 0;
+    margin-left: 63px;
+    position: relative;
+}
+
+    /* Start header */
+.header{
+    margin-top:0px;
+    background-color: rgb(255, 255, 255);
+    height: 60px;   
+}
+
+.header div{
+    
+    position: relative;
+    top: 32px;
+    left: 7px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.header ul li{
+    display:inline-block;
+    float: right;
+    margin-top: 13px;
+    margin-right: 70px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.header ul li img{
+    position: relative;
+    left: 60px;
+    font-weight: bold;
+    margin-right: -10px;
+}
+
+.dark{
+    position: relative;
+    bottom:19px ;
+    font-size: 18px;
+    color: #5f5c5c;
+}
+
+.header img{
+    height: 35px;
+    width: 35px;
+    margin-right: 0px;
+    position: relative;
+    bottom:29px ;
+}
+    /* End header */
+
+    /* Start navber */
+h2 input{
+    margin-top: 48px;
+    height: 58px;
+    width: 480px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 1px 20px 0px rgb(217 217 217);
+}
+
+
+.menu{
+    
+    position: absolute;
+    right: 260px;
+    top: 90px;
+    height: 40px;
+    width: 225px;
+    color: #5f5c5c;
+    
+}
+
+.navber{
+
+    background-color:#f6f6f6;
+    height: 950px;
+    margin-bottom: 0;
+    
+}
+
+.navber p {
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    margin-top: 48px;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-top: 15px;
+    padding-right: 3px;
+    height: 58px;
+    margin-right: -202px;
+    font-size: 22px;
+    
+    
+}
+
+.navber p span {
+    transform: rotate(90deg);
+    font-family: monospace;
+}
+
+.ul {
+    
+    width: 216px;
+    background-color: #fff;
+    list-style: none;
+    text-align: left;
+    transition: all .7s;
+    opacity: 0  ;
+    border-radius: 5px;
+    position: absolute;
+    right: 57px;
+    top: 205px;
+}
+
+
+
+.li a {
+    display: flex;
+    color: black;
+    padding: 5px 0 5px 0px;
+    font-size: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all .7s;
+   color: #5f5c5c;
+}
+
+.navber p:hover ~ .ul, .ul:hover {
+    opacity: 1;
+    visibility: visible;
+    padding-left: 10px;
+    margin: 0;
+}
+
+a:hover{
+    background-color: (0, 0, 0, 0.555);
+    text-decoration:underline;
+} 
+    /* End navber */
+
+    /* Start main */
+.main{
+    margin-top: 45px;
+    height: 1300px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+    
+    
+    
+    .section{
+        height: 340px;
+        width: 260px;
+        background-color:#fff;
+        margin-left: 0;
+        margin-right: 80px;
+        margin-top: 30px;
+        border-radius: 5px;
+        transition: all 1s;
+        margin-bottom: -370px;
+    }
+
+
+    .section img{
+        height: 160px;
+        width: 260px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .section h3{
+        margin-left: 20px;
+    }
+
+    .section h4{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-bottom: -8px;
+        font-weight: normal;
+    }
+
+    .section span{
+        color: hsl(0, 3%, 47%);
+        
+    }
+     .different{
+        width: 270px;
+        background-color:#fff;
+        margin-left: 0;
+        margin-right: 80px;
+        margin-top: 30px;
+        border-radius: 5px;
+        transition: all 1s;
+    }
+    .different{
+        width: 200px;
+        padding-right: 60px;
+        height: 190px;
+    }
+
+    .different .img{
+        height: 170px;
+        width: 260px;
+        margin-top: -180px;
+        border-radius: 5px;
+    }
+
+    .different .algiria{
+        height: 170px;
+        width: 260px;
+        margin-top: -180px;
+        border-radius: 5px;
+    }
+
+    .different h3{
+        margin-left: 20px;
+    }
+
+    .different h4{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-bottom: -8px;
+        font-weight: normal;
+    }
+
+    .different span{
+        color: hsl(0, 3%, 47%);
+        
+    }
+    /* End main */
